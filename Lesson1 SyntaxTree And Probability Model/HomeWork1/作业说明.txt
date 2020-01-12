@@ -1,0 +1,11 @@
+1. Build Sentence Generation System Using Syntax Tree and Language Model
+	程序入口是：Main.py 。在运行前确保 数据集 sqlResult_1558435.csv 文件存在于Main.py同级目录下。 
+	主要实现是在SyntaxTree.py 和 ProbabilitySeletor.py中
+	ProbabilitySeletor.ipynb  中是自己对ProbabilitySeletor的实现的一个过程。
+
+2. （Optional） Chat Bot Using Pattern
+	可参考：https://towardsdatascience.com/how-to-build-a-chatbot-a-lesson-in-nlp-d0df588afa4b
+	可参考： 	git@github.com:Sanghamitra1234/chatbot-using-nltk.git
+		git@github.com:vmsgiridhar/ChatBot2k18.git
+
+3. （Optional）Reading Turing's Machine Intelligence Paper：See in our github
