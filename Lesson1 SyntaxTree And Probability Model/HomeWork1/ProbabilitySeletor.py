@@ -56,8 +56,8 @@ class ProbabilitySelector:
     # 出现 word2 后出现 word1的概率
     def conditionProb(self, word1, word2):
         ww = word1 + word2
-        if ww in self.word2s:
-            return self.word2Counter[''.join([word1, word2])] / self.wordsCount[word2]
+        if ww in self.word2Counter:
+            return self.word2Counter[ww] / self.wordsCount[word2]
         else:
             return 1 / len(self.word2s)
 
