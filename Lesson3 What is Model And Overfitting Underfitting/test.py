@@ -19,3 +19,10 @@ B.dic[1] = '333'
 print(A.dic )
 print(B.dic )
 
+M = list(map(lambda x:x[1], [[0,1],  [2,3],  [4,5]]))
+for i in M:
+    print(i)
+print(M)
+
+print(1000 / 10)
+print(1000 // 10)
