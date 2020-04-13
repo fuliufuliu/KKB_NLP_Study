@@ -2,8 +2,7 @@
 # 句子对分类任务，LCQMC数据集
 # val_acc: 0.887071, test_acc: 0.870320
 
-import numpy as np
-from bert4keras.backend import keras, set_gelu, K
+from bert4keras.backend import keras, set_gelu
 from bert4keras.tokenizers import Tokenizer
 from bert4keras.models import build_transformer_model
 from bert4keras.optimizers import Adam

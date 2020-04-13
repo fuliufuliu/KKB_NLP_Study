@@ -1,7 +1,6 @@
 #! -*- coding:utf-8 -*-
 # 情感分析例子，加载albert_zh权重(https://github.com/brightmart/albert_zh)
 
-import numpy as np
 from bert4keras.backend import keras, set_gelu
 from bert4keras.tokenizers import Tokenizer
 from bert4keras.models import build_transformer_model

@@ -12,7 +12,6 @@ from bert4keras.tokenizers import Tokenizer, load_vocab
 from bert4keras.optimizers import Adam
 from bert4keras.snippets import sequence_padding, open
 from bert4keras.snippets import DataGenerator, AutoRegressiveDecoder
-from bert4keras.snippets import uniout  # 打印中文
 from keras.layers import Input, Embedding, Reshape
 
 # 模型配置

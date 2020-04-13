@@ -6,7 +6,6 @@ import numpy as np
 from bert4keras.models import build_transformer_model
 from bert4keras.tokenizers import Tokenizer
 from bert4keras.snippets import AutoRegressiveDecoder
-from bert4keras.snippets import uniout
 
 config_path = '/root/gpt2/config.json'
 checkpoint_path = '/root/gpt2/model.ckpt-100000'
